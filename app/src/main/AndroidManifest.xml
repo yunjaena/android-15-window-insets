@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Android15"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Android15">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="dev.yunzai.android15.codelab1.CodeLab1Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="dev.yunzai.android15.codelab2.CodeLab2Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="dev.yunzai.android15.codelab3.CodeLab3Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="dev.yunzai.android15.codelab4.CodeLab4Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="dev.yunzai.android15.codelab5.CodeLab5Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="dev.yunzai.android15.codelab6.CodeLab6Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="dev.yunzai.android15.codelab7.CodeLab7Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="dev.yunzai.android15.codelab8.CodeLab8Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="dev.yunzai.android15.codelab9.CodeLab9Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="dev.yunzai.android15.codelab10.CodeLab10Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="dev.yunzai.android15.codelab11.CodeLab11Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="dev.yunzai.android15.codelab12.CodeLab12Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="dev.yunzai.android15.codelab13.CodeLab13Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="dev.yunzai.android15.codelab14.CodeLab14Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="dev.yunzai.android15.codelab15.CodeLab15Activity"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+
+</manifest>
