@@ -121,7 +121,7 @@ private fun Codelab3Content(modifier: Modifier = Modifier) {
         ) {
             Text(
                 text = "여기서 각 safe modifier에서 inset이 cosumed 처리가 되기 때문에 inset이 중복으로 작용하지 않습니다.\n" +
-                        "상위 composable modiifer를 주석처리해서 확인해보세요!"
+                        "상위 composable modifer를 주석처리해서 확인해보세요!"
             )
         }
     }
