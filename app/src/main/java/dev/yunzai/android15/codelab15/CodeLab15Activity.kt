@@ -34,6 +34,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsCompat.Type.systemBars
+import androidx.core.view.WindowInsetsControllerCompat
 import dev.yunzai.android15.ui.theme.Android15Theme
 
 class CodeLab15Activity : ComponentActivity() {
@@ -46,6 +47,7 @@ class CodeLab15Activity : ComponentActivity() {
             var checked by remember { mutableStateOf(false) }
 
             LaunchedEffect(checked, windowInsetsController) {
+                //windowInsetsController.systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
                 when (checked) {
                     true -> windowInsetsController.hide(systemBars())
                     false -> windowInsetsController.show(systemBars())
